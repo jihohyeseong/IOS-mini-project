@@ -1,2 +1,1 @@
-# IOS-mini-project
-## Sport News App
+# IOS-mini-project <br/>Sport News App
