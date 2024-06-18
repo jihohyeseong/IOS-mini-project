@@ -52,3 +52,19 @@
 ## 프로젝트 구조
 ![프로젝트 구조](https://github.com/jihohyeseong/IOS-mini-project/blob/main/image/%EA%B5%AC%EC%A1%B0.png)
 <br/>
+
+## 구현화면
+
+<ul>
+    <li>메인화면</li>
+        <img src="https://github.com/jihohyeseong/IOS-mini-project/blob/main/image/%EB%A9%94%EC%9D%B8.png" width="300">
+    <li>뉴스 등록</li>
+        <img src="https://github.com/jihohyeseong/IOS-mini-project/blob/main/image/%EC%83%9D%EC%84%B1.png" width="300">
+        <img src="https://github.com/jihohyeseong/IOS-mini-project/blob/main/image/%EC%83%9D%EC%84%B12.png" width="300">
+    <li>등록 확인</li>
+        <img src="https://github.com/jihohyeseong/IOS-mini-project/blob/main/image/%EC%A0%80%EC%9E%A5.png" width="300">
+    <li>생성된 뉴스 클</li>
+        <img src="https://github.com/jihohyeseong/IOS-mini-project/blob/main/image/%EA%B8%B0%EC%82%AC.png" width="300">
+    <li>뉴스 요약 AI</li>
+        <img src="https://github.com/jihohyeseong/IOS-mini-project/blob/main/image/%EC%9A%94%EC%95%BD.png" width="300">
+</ul>
