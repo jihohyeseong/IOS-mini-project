@@ -1,1 +1,1 @@
-# IOS-mini-project <br/><h3>Sport News App</h3>
+# IOS-mini-project <br/><h2>Sport News App</h2>
