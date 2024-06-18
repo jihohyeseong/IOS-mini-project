@@ -48,3 +48,7 @@
 </table>
 </div>
 <br/>
+
+## 프로젝트 구조
+![프로젝트 구조](https://github.com/jihohyeseong/IOS-mini-project/blob/main/image/%EA%B5%AC%EC%A1%B0.png)
+<br/>
