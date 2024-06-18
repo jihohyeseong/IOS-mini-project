@@ -65,6 +65,6 @@
         <img src="https://github.com/jihohyeseong/IOS-mini-project/blob/main/image/%EC%A0%80%EC%9E%A5.png" width="300">
     <li>생성된 뉴스 클릭</li>
         <img src="https://github.com/jihohyeseong/IOS-mini-project/blob/main/image/%EA%B8%B0%EC%82%AC.png" width="300">
-    <li>뉴스 요약 AI</li>
+    <li>뉴스 요약 AI(sum up 버튼 클릭)</li>
         <img src="https://github.com/jihohyeseong/IOS-mini-project/blob/main/image/%EC%9A%94%EC%95%BD.png" width="300">
 </ul>
