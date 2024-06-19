@@ -158,7 +158,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 detailVC.news = sender as? NewsDto
             }
         } else if segue.identifier == "showNewNews" {
-            // Configure new news view controller if needed
         }
     }
 }
