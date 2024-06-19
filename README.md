@@ -4,6 +4,9 @@
 
 3줄 핵심 요약 기능을 더한 스포츠 뉴스 어플리케이션을 제공
 
+## 시연 동영상
+[🍎[아이폰 시연동영상](https://www.youtube.com/watch?v=BEr2VlrXqks)]
+
 <br/>
 
 ## ✔️ 기술 스택
