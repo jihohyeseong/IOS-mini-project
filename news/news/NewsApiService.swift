@@ -8,7 +8,7 @@
 import Foundation
 
 class NewsApiService {
-    private let baseUrl = "http://192.168.73.1:8080/api/news"  // 여기에 실제 서버 주소를 입력하세요.
+    private let baseUrl = "http://192.168.73.1:8080/api/news"
 
     // 뉴스 목록 가져오기
     func fetchNewsList(completion: @escaping (Result<[NewsDto], Error>) -> Void) {
