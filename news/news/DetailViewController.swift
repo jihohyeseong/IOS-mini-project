@@ -43,13 +43,11 @@ class DetailViewController: UIViewController {
     @IBAction func sumUp(_ sender: Any) {
         guard let news = news else { return }
                
-               // Prepare the request
                guard let url = URL(string: "http://192.168.73.1:8080/api/summary") else { return }
                var request = URLRequest(url: url)
                request.httpMethod = "POST"
                request.setValue("application/json", forHTTPHeaderField: "Content-Type")
 
-               // Create the request body
                do {
                    let jsonData = try JSONEncoder().encode(news)
                    request.httpBody = jsonData
@@ -58,7 +56,6 @@ class DetailViewController: UIViewController {
                    return
                }
 
-               // Send the request
                let task = URLSession.shared.dataTask(with: request) { data, response, error in
                    if let error = error {
                        print("Failed to fetch summary: \(error)")
@@ -70,7 +67,6 @@ class DetailViewController: UIViewController {
                        return
                    }
 
-                   // Parse the response
                    do {
                        if let summaryResponse = try JSONSerialization.jsonObject(with: data, options: []) as? [String: String],
                           let summary = summaryResponse["summary"] {
