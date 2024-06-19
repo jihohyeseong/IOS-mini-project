@@ -23,7 +23,6 @@ class NewNewsViewController: UIViewController {
         guard let title = titleTextField.text, !title.isEmpty,
               let description = descriptionTextView.text, !description.isEmpty,
               let imageUrl = imageUrlTextField.text, !imageUrl.isEmpty else {
-            // Handle empty field case
             return
         }
         
@@ -33,12 +32,10 @@ class NewNewsViewController: UIViewController {
             DispatchQueue.main.async {
                 switch result {
                 case .success(let createdNews):
-                    // Notify the main view controller
                     NotificationCenter.default.post(name: NSNotification.Name("NewsCreated"), object: createdNews)
                     self.dismiss(animated: true, completion: nil)
                 case .failure(let error):
                     print("Failed to create news: \(error)")
-                    // Handle error case
                 }
             }
         }
